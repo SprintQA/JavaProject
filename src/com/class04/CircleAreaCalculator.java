@@ -15,7 +15,7 @@ public class CircleAreaCalculator
 		radius = 10.8;
 		
 		// Step 3 - Get values for the unknown
-		pi = 3.1416; // pi, approximately (also can be calculated as 22/7)
+		pi = 3.141; // pi, approximately (also can be calculated as 22/7)
 
 		// Step 4 – Implement your code logic
 		area = pi * radius * radius; // compute area

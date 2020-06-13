@@ -18,7 +18,7 @@ Step 5 – Output the program
 Write a program to compute the distance in miles light travels in 100 days, when the approximate speed of light 
 is equal to 186000 miles per second. The output of your program should be: 
 
-In 1000 days, light will travel about 16070400000000 miles.
+In 100 days, light will travel about 16070400000000 miles.
 
 *Hint: speed = distance/time
 *Pro Tip: Name your class as: LightDistanceCalculator
@@ -96,7 +96,7 @@ Your gross pay is: $1200.0
                                         Topics: If statement, Scanner class
 ---------------------------------------------------------------------------------------------------------------
 All salespeople get a payment of $700 a week. Salespeople who exceed 10 sales get an additional bonus of $300. 
-Write a program which extra sales as input from the user and calculate the employee’s total salary in a week.
+Write a program with extra sales as input from the user and calculate the employee’s total salary in a week.
 The sample input and output of your program should be:
 
 How many sales did the employee make this week?
