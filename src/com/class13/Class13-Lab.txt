@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                  Topics: Pattern Programs using For & Nested For loops
+---------------------------------------------------------------------------------------------------------------
+Print the below hourglass pattern using for loops and nested for loops. The output of your program should be:
+
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                               Topics: For Each Loop
+---------------------------------------------------------------------------------------------------------------
+Given an array of vowels of type char. Write a program to print each vowel on the console using the for each
+loop. The output of your program should be:
+
+a
+e
+i
+o
+u
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Given an array {5, 15, 20, 25, 30, 35, 40} of type integer. Write a program to find the smallest and largest 
+element in the array. The output of your program should be:
+
+The smallest element present in the given array is: 5
+The largest element present in the given array is: 40
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------
+Given matrices A {1, 2, 3} and B {0, 5, 3}. Write a program to add these matrices.
+                 {0, 6, 1}       {4, 0, 6}    
+                 {5, 3, 1}       {2, 1, 3} 
+		           
+The output of your program should be:		    
+		    
+1 7 6 
+4 6 7 
+7 4 4
+
+Hint: Create another matrix and store the result of addition of these two matrices in it.	    
+---------------------------------------------------------------------------------------------------------------

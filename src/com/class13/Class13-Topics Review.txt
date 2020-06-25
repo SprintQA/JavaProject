@@ -1,0 +1,144 @@
+--------------------------------------------------------------------------------------------------------
+                                 Topics:  For loops, Arrays, Debugging
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                      For loop & Nested For loops
+----------------------------------------------------------------------------------------------------------
+- It's count-controlled, meaning it will run a specified number of times.
+- The sentinel is expressed within a condition which is tested before the loop is entered.
+- It's best to use when you know how many times the loop should be executed.
+
+- Syntax of a for loop:
+
+  for (initialization; testExpression; update)
+  {
+    // codes inside for loop's body
+  }
+
+- Steps of a for loop:
+  1. The initialization expression is executed only once.
+  2. Then, the test expression is evaluated. Here, test expression is a boolean expression.
+  3. If the test expression is evaluated to true, codes inside the body of for loop is executed.
+     Then the update expression is executed. Again, the test expression is evaluated.
+     If the test expression is true, codes inside the body of for loop is executed and update expression 
+     is executed. This process goes on until the test expression is evaluated to false.
+  4. If the test expression is evaluated to false, for loop terminates.
+  
+- Sometimes your repetitive tasks using for loop also contain repetitive sub-tasks. 
+  In the case, you need another loop inside of a for loop. These are known as nested for loops.
+  
+----------------------------------------------------------------------------------------------------------
+                                    For Each Loop / Enhanced For Loop
+----------------------------------------------------------------------------------------------------------  
+- The enhanced for loop (aka for each loop) steps through the elements of an array or collection in 
+  first-to-last order, and you do not need to know the index of the current element.
+  
+- The syntax of for each loop is:
+  for(data_type item : collection) {
+    ...
+  }
+  
+  collection - a collection or array that you have to loop through.
+  item - a single item from the collections.
+  The colon in the syntax can be read as "in".
+  
+- For each iteration, the for-each loop iterates through each item in given collections or arrays 
+  (collections), stores each item in a variable (item) and executes the body of the loop.  
+  
+- The for-each loop, introduced in release 1.5, gets rid of the clutter and the opportunity for error by 
+  hiding the iterator or index variable completely.  
+  
+- In general, enhanced for loop is much more easy to use and less error prone than for loop, where you need 
+  to manage the steps manually. At the same time, for loop is much more powerful because you get the 
+  opportunity to control over looping process. 
+  
+- Note that there is no performance penalty for using the for-each loop, even for arrays. In fact, it may 
+  offer a slight performance advantage over an ordinary for loop in some circumstances, as it computes the 
+  limit of the array index only once.     
+----------------------------------------------------------------------------------------------------------
+                                               Arrays
+----------------------------------------------------------------------------------------------------------
+- In Java, an array is used to store a list of elements of the same datatype.
+
+- Arrays are fixed in size and their elements are ordered.
+
+- Array Declaration: dataType [] variableName;     OR    dataType variableName [];
+
+- Array Initialization: variableName = dataType [size];
+
+- Array Initializer: dataType [] variableName = {element1, element2, ...};  
+
+- Array Creation: dataType [] variableName = new dataType[size]; 
+
+- You can access the items in an array by using the [i] notation, where i is the index you want to access.
+
+- An index in an array is just the location or position of the element in the array. 
+
+- The index of an array starts from 0 and goes up to length of the array minus 1. 
+
+- You can iterate over the elements of array using for loop or for each loop.
+----------------------------------------------------------------------------------------------------------
+                                               2D Arrays 
+----------------------------------------------------------------------------------------------------------
+- The 2D array is organized as a matrix which can be represented as the collection of rows and columns.
+
+- The number of elements (size) that can be present in a 2D array will always be equal to 
+  (number of rows * number of columns).
+
+- 2D arrays are created to implement a relational database look alike data structure. It provides ease of 
+  holding bulk of data at once which can be passed to any number of functions wherever required.
+
+- Array Declaration: dataType [][] matrix;     OR    dataType matrix [][];
+
+- Array Initialization: matrix = dataType [size][size];
+
+- Array Initializer: dataType [][] matrix = {{1st row elements}, {2nd row elements}, ...}};  
+
+- Array Creation: dataType [][] matrix = new dataType[size][size]; 
+
+- You can access the items in an array by using the [i][j] notation, 
+  where i is the row index and j is column index you want to access.
+
+----------------------------------------------------------------------------------------------------------
+                                               Debugging
+----------------------------------------------------------------------------------------------------------
+- Debugging is the routine process of locating and removing bugs, errors or abnormalities from programs. 
+  It’s a must have skill for any Java developer because it helps to find subtle bug that are not visible 
+  during code reviews or that only happens when a specific condition occurs.
+  
+- The Eclipse Java IDE provides many debugging tools and views grouped in the Debug Perspective to help the 
+  you as a developer debug effectively and efficiently. 
+  
+- A Java program can be debugged simply by right clicking on the Java editor class file from Package explorer. 
+  Select Debug As -> Java Application or use the shortcut Alt + Shift + D, J instead. 
+  
+- A breakpoint is a signal that tells the debugger to temporarily suspend execution of your program at a certain 
+  point in the code.
+  
+- To define a breakpoint in your source code, right-click in the left margin in the Java editor and select Toggle 
+  Breakpoint. Alternatively, you can double-click on this position.
+
+- The debug perspective offers additional views that can be used to troubleshoot an application like Breakpoints, 
+  Variables, Debug, Console etc. When a Java program is started in the debug mode, users are prompted to switch 
+  to the debug perspective. 
+  
+  - Debug view – Visualizes call stack and provides operations on that.
+  - Breakpoints view – Shows all the breakpoints.
+  - Variables/Expression view – Shows the declared variables and their values. Press Ctrl+Shift+D or 
+    Ctrl+Shift+I on a selected variable or expression to show its value. You can also add a permanent watch 
+    on an expression/variable that will then be shown in the Expressions view when debugging is on.
+  - Display view – Allows to Inspect the value of a variable, expression or selected text during debugging.
+  - Console view – Program output is shown here.  
+  
+- Stepping commands
+  
+  F5 (Step Into) - steps into the call
+  F6 (Step Over) - steps over the call
+  F7 (Step Return) - steps out to the caller
+  F8 (Resume) - resumes the execution
+  CTRL+R (Run to Line) - run to the line number of the current caret position
+  Drop to Frame - rerun a part of your program
+  Shift + F5 (Use Step Filters) - skipping the packages for Step into
+  CTRL+F5 / CTRL+ALT+Click - step into selection
+  
+------------------------------------------------------------------------------------------------------------------   

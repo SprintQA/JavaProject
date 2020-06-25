@@ -20,7 +20,7 @@ public class ForEachAssignment
 			sum = sum + number;
 		}
 		
-		System.out.println (sum);
+		System.out.println ("Sum is: " + sum);
 
 	}
 

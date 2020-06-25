@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------------------------------------
+                                     Review Topics:  For loops, Arrays, Debugging
+                                                      Quiz
+--------------------------------------------------------------------------------------------------------------
+1. What is the purpose of loops?
+
+2. Which loops are condition controlled loops: for loop, while loop, or do while loop?
+
+3. Which loops are count controlled loops: for loop, while loop, or do while loop?
+
+4. Which loop should be used if you know the number of iterations it needs to execute:
+   for loop, while loop, or do while loop?
+   
+5. Which loop is best to use if the contents definitely need to be executed at least once:
+   for loop, while loop, or do while loop?
+   
+6. Which loop is best to use if the loop may or may not need to run at all:
+   for loop, while loop, or do while loop?
+   
+7. How to avoid infinite loop?
+
+8. Is the following array initializer statement correct?
+   int [] array = {2, 5, "zero", 3, 1};
+   
+9. Given array: array [] = {2, 4, 6, 8}. What would array[2] do?
+
+10. Given array: int [] array = new int[5];  what is value of array[3]?  
+
+11. Given array: String [] array = new String[5];  what is value of array[2]? 
+
+12. Given array: boolean [] array = new boolean[5]; what is value of array[1]?  
+
+-------------------------------------------------------------------------------------------------------------------      
