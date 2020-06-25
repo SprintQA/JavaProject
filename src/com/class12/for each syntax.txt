@@ -1,0 +1,8 @@
+For Each Syntax
+---------------------
+for (dataType item : array)
+{
+  // code to iterate through
+}
+
+for each item in the array execute the body of the loop
