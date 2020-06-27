@@ -42,13 +42,32 @@ u
                                                Practice Program 3
                                                  Topics: Arrays
 ---------------------------------------------------------------------------------------------------------------
+Given an array {'s', 'a', 'p',  'b', 'r', 'c', 'i',  'd', 'n', 'e', 't', 'g', 'q', 'h','a'}. Write a program to
+print the elements of the array starting at index 0 and iterating by 2. The output of your program should be:
+
+sprintqa
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
 Given an array {5, 15, 20, 25, 30, 35, 40} of type integer. Write a program to find the smallest and largest 
 element in the array. The output of your program should be:
 
 The smallest element present in the given array is: 5
 The largest element present in the given array is: 40
 ---------------------------------------------------------------------------------------------------------------
-                                               Practice Program 4
+                                               Practice Program 5
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------
+Given matrix {2, 5, 7} . Write a program to find sum of the elements in third row of the given matrix.
+		     {1, 4, 3}    
+		     {8, 6, 9}
+		     
+The output of your program should be:			    
+		    
+Sum is: 23
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 6
                                                 Topics: 2D Arrays
 ---------------------------------------------------------------------------------------------------------------
 Given matrices A {1, 2, 3} and B {0, 5, 3}. Write a program to add these matrices.

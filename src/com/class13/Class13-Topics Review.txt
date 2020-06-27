@@ -64,7 +64,7 @@
 
 - Array Declaration: dataType [] variableName;     OR    dataType variableName [];
 
-- Array Initialization: variableName = dataType [size];
+- Array Initialization: variableName = new dataType [size];
 
 - Array Initializer: dataType [] variableName = {element1, element2, ...};  
 
@@ -90,7 +90,7 @@
 
 - Array Declaration: dataType [][] matrix;     OR    dataType matrix [][];
 
-- Array Initialization: matrix = dataType [size][size];
+- Array Initialization: matrix = new dataType [size][size];
 
 - Array Initializer: dataType [][] matrix = {{1st row elements}, {2nd row elements}, ...}};  
 
