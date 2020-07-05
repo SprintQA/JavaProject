@@ -1,5 +1,7 @@
 package com.class20;
 
+import com.class21.BankAccount;
+
 // Find sum of numbers till the limit given by user
 // input 10 
 // output 55
@@ -9,6 +11,7 @@ public class SumOfNumbers {
 		int limit = 10;
 		int result = getSum(limit);
 		System.out.println(result);
+		
 	}
 
 	static int getSum(int limit) {
