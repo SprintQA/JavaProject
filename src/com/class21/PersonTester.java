@@ -5,7 +5,7 @@ public class PersonTester {
 		Person p1 = new Person();
 		Person p2 = new Person();
 		Person p3 = new Person();
-		Person p4; 
+		Person p4 = new Person();
 
 		p1.name = "Chirag";
 		p1.age = 26;
