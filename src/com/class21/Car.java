@@ -7,6 +7,12 @@ public class Car {
 	String make;
 	String model;
 	int price;
+	
+	void Car() {
+		System.out.println("Test");
+	}
+	
+	
 
 	void pressBreak() {
 		System.out.println("Pressing break");
@@ -25,3 +31,5 @@ public class Car {
 	}
 
 }
+
+

@@ -8,7 +8,7 @@ public class Person {
 
 	// Explicit Construtor added by user to initialize class
 	// variables
-	Person() {
+	 Person() {
 		name = "Chirag";
 		age = 30;
 		height = 5.5;
