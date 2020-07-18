@@ -1,6 +1,6 @@
 package com.class25;
 
-class Person {
+public class Person {
 	static String name;
 	int age;
 	String gender;
