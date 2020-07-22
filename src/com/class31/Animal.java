@@ -1,138 +1,47 @@
 package com.class31;
 
-interface Animal {
-
-	void eat();
-
+public interface Animal {
 	void makeNoise();
 
 	void walk();
 
+	void eat();
 }
 
-interface Bank {
-
-	int balance = 1000;
-
-	void login();
-
-	void deposit(int amount);
-
-	void withdraw(int amount);
-
-	void displayBalance();
-
-	void updatePersonDetails();
-
-	void changePassword();
-
-}
-
-interface MyInterface {
-
-}
-
-interface PSUBank {
-
-	void feature1();
-
-	void feature2();
-
-	void feature3();
-}
-
-class CitiBank implements PSUBank, Bank {
+class Dog implements Animal{
 
 	@Override
-	public void login() {
-		// TODO Auto-generated method stub
-
+	public void makeNoise() {
+		System.out.println("Dog is barking.....");
 	}
 
 	@Override
-	public void deposit(int amount) {
-		// TODO Auto-generated method stub
-
+	public void walk() {
+		System.out.println("Dog is walking.....");
 	}
 
 	@Override
-	public void withdraw(int amount) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void displayBalance() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void updatePersonDetails() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void changePassword() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void feature1() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void feature2() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void feature3() {
-		// TODO Auto-generated method stub
-
+	public void eat() {
+		System.out.println("Dog is eating.....");
 	}
 
 }
 
-class HSBC implements Bank {
+class Cat implements Animal{
 
-	public void faceDetectionLogin() {
-
+	@Override
+	public void makeNoise() {
+		System.out.println("Cat is making noise meawwww...meawww");
 	}
 
 	@Override
-	public void login() {
-
+	public void walk() {
+		System.out.println("Cat is walking.....");
 	}
 
 	@Override
-	public void deposit(int amount) {
-
+	public void eat() {
+		System.out.println("Cat only eat with drinks....");
 	}
-
-	@Override
-	public void withdraw(int amount) {
-
-	}
-
-	@Override
-	public void displayBalance() {
-
-	}
-
-	@Override
-	public void updatePersonDetails() {
-
-	}
-
-	@Override
-	public void changePassword() {
-
-	}
-
 }
+
