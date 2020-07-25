@@ -20,7 +20,6 @@ public class ExceptionHandlingProgram02
 		}
 		catch (ArithmeticException e)
 		{
-			e.printStackTrace ();
 			System.out.println ("Dividing by zero is not permitted");
 		}
 		finally
